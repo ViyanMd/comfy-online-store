@@ -1,0 +1,28 @@
+.header__main {
+    @include flex(row);
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    height: 7rem;
+}
+
+.header__nav {
+    @include flex(row);
+    @include main(1.5rem, 400);
+    gap: 1.5rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header__logo {
+    @include header(2.8rem, 700);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: min-content;
+}

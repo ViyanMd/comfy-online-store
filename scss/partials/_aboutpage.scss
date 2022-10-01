@@ -1,0 +1,37 @@
+.content__about {
+    @include flex(row);
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 7rem);
+    animation: appearance 750ms ease-in-out;
+}
+
+.content__about_main {
+    @include flex(column);
+    gap: 5rem;
+    margin-top: 15rem;
+}
+
+.about_header {
+    @include header(3rem, 700);
+    text-align: center;
+}
+
+.about_content {
+    @include main(1.5rem, 400);
+    margin: 0 auto;
+    width: 60rem;
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {  
+        opacity: 1;
+    }
+}
+
+
+
+

@@ -1,0 +1,22 @@
+//General
+
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+// Media Queries
+
+//Fonts 
+
+@mixin header($size, $weight) {
+    font-family: $font__head;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin main($size, $weight) {
+    font-family: $font__main;
+    font-size: $size;
+    font-weight: $weight;
+}

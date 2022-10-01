@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/index.js" type="module"></script>
+</head>
+<body>
+    <header class="header__main">
+        <ul class="header__nav">
+            <li><a class="nav__link" id="link__home" href="/">Home</a></li>
+            <li><a class="nav__link" id="link__products" href="/products">Prodcuts</a></li>
+            <li><a class="nav__link" id="link__about" href="/about">About</a></li>
+        </ul>
+        <div class="header__logo">
+            <p class="logo">COMFY</p>
+        </div>
+        <div id="shopping__bag_action">
+            <img src="./media/icons/shopping-cart-outline-svgrepo-com.svg" width="30px" height="30px">
+        </div>
+    </header>
+    <div id="root">
+       
+    </div>
+    <div class="shopping_cart">
+        <div class="cart">
+            <img id="cross" src="./media/icons/cross.svg" alt="">
+            <h3 class="cart_header">Your Bag</h3>
+            <div id="bag_items">
+                <p class="bag__temp">No items are in the bag</p>
+            </div>
+            <div class="checkout">
+                <span class="total">Total: </span>
+                <button class="checkout__action">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
